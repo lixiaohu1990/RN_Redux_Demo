@@ -31,6 +31,7 @@ Redux是由Flux进化而来（官方文档上说Redux可以看作是Flux思想�
 * state管理混乱：React Native框架本身是根据state来渲染视图的，在Component中除了render方法中的任意地方都可以设置和修改state的值。我们对state的管理分散在各个业务逻辑方法中，各个方法都对state中的值进行管理，这样做除了维护state的成本很大之外，还很容易出现对state修改错误的情况。
 
 * Redux 试图让 state 的变化变得可预测
+
 ### Redux使用三大原则
 * 单一数据源：整个应用的 state 被储存在一棵 object tree 中，并且这个 object tree 只存在于唯一一个 store 中
 

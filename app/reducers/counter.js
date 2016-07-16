@@ -5,9 +5,11 @@ const initialState = {
 };
 
 export default function counter(state = initialState, action = {}){
+    console.log('111111');
     switch (action.type){
         case types.INCREMENT:
             return {
+
                 ...state,
                 count:state.count + 1
             };
